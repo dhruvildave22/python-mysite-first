@@ -1,0 +1,7 @@
+db.sqlite3
+
+polls/__pycache__
+polls/__init__.py
+
+mysite/__pycache__
+mysite/__init__.py

@@ -5,9 +5,6 @@ from django.template import loader
 from django.urls import reverse
 from django.utils import timezone
 
-
-# Create your views here.
-
 def index(request):
     latest_question_list = Question.objects.order_by('-publish_date')[:5]
     context = {'latest_question_list': latest_question_list}
